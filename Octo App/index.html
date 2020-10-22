@@ -2,16 +2,26 @@
 <html>
     <head>
         <link rel="stylesheet"  href="styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hpi6hbs.css">
+        <link rel="stylesheet" href="'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap">
     </head>
     <body class="bg">
-        <h2 class="help-link"><link href="help.html"> Help guide</h2>
+            <img class="logo" src="assets/Core-logo.png">
+            <h2 class="help-link"><link href="help.html"> Help guide</h2>
+
         <div class="flex-container">
         <div class="flex-child container">
             <h1>O C T O</h1>
             <p class="subtext" >A NEW WORLD OF CUSTOMER SERVICE</p>
             <div >
                 <form action="https://2644742ff33d.ngrok.io/filePOST" method="POST" enctype="multipart/form-data">
-                    <button type="submit" class="button">UPLOAD FILE</button>
+                    <div class="upload-btn-wrapper">
+                        <button class="btn">Select a file</button>
+                        <input type="file" name="myfile" />
+                        <button class="btn">Upload file</button>
+                      </div>
+                      <br/>
+                      <br/>
                 </form>
             </div>
         </div>
